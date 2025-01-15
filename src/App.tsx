@@ -32,7 +32,7 @@ function App() {
 
 
         <div className="container">
-          {/* Ваш контент */}
+        
         </div>
       </div>
     </RouterProvider>
