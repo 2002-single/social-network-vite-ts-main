@@ -7,17 +7,15 @@ import { ForgotPage } from "./pages/ForgotPage/ForgotPage";
 
 const router = createBrowserRouter([
   {
-    path: "/LoginPage",
-    element: <LoginPage /> // Путь для страницы логина
+    path: "/",
+    element: <LoginPage /> 
   },
   {
     path: "/RegPage",
-    element: <RegPage /> // Путь для страницы регистрации
-  },
+    element: <RegPage /> },
   {
     path: "/ForgotPage",
-    element: <ForgotPage /> // Путь для страницы регистрации
-  }
+    element: <ForgotPage />}
 
 
 

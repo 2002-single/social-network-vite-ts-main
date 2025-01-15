@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Header } from "../Header/Header";
+
 type TRegWrapper = {avtoLink:string};
 
 
@@ -6,7 +9,7 @@ export const RegWrapper = ({avtoLink}:TRegWrapper)=>{
     return(
         <div className="registration">
         <span>
-        У вас есть аккаунт? <a href={avtoLink}>Войти</a>
+        У вас есть аккаунт? <Link to="/">Войти</Link>
 
         </span>
         <p>Регистрация с помощью</p>
